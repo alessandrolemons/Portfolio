@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="home" id="home">
+            <div class="lines">
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
+            </div>
+            <header>
+                <div class="img-wrapper">
+                    <img id='home' src="./img/background.jpg" alt="Background">
+                </div>
+                <div class="text" data-anime='left'>
+                    <h1 id="more-projects-text"> Alessandro Lemons </h1>
+                    <p>Um pouco sobre mim!</p>
+                    <button type="submit" href="#about">Saiba mais</button>
+                </div>
+                <div class="button-up">
+                    <a href="#home"><i class="fas fa-arrow-circle-up"></i></a>
+                </div>
+            </header>
+        </section>
+
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#about" class="menu-link">Sobre</a></li>
+                    <li class="menu-item"><a href="#contatos" class="menu-link">Contatos</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/alessandro-lemons-8b6190151/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/alessandrolemons/alessandrolemons" target="_blank"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://wa.me/+xxxxx-xxxx" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </aside>
+
+        <section class="sessao-projetos" id="projetos">
+            <div class="projetos-header">
+                <h1>Projetos</h1>
+                <p>Aqui estão alguns dos projetos que faço como forma de estudo e entretenimento</p>
+            </div>
+            <div class="projetos" data-anime='right'>
+                <div class="projeto">
+                    <figure>
+                        <a href="https://alessandrolemons.github.io/Lemonsflix/" target="_blank">
+                            <img src="./img/projetos/lemonsflix.png" alt="LemonsFlix">
+                        </a>
+                        <p>Lemonsflix</p>
+                    </figure>
+                    <div class="projeto-info">
+                        <h3></h3>
+                    </div>
+                </div>
+                <div class="projeto">
+                    <figure>
+                        <a href="#">
+                            <img src="./img/projetos/lemonsfy.png" alt="Lemonsfy">
+                        </a>
+                        <p>Lemonsfy</p>
+                    </figure>
+                    <div class="projeto-info">
+                        <h3></h3>
+                    </div>
+                </div>
+                <div class="projeto">
+                    <figure>
+                        <a href="https://alessandrolemons.github.io/Lemonsgram/index.html" target="_blank">
+                            <img src="./img/projetos/lemonsgram.png" alt="LemonsGram">
+                        </a>
+                        <p>Lemonsgram</p>
+                    </figure>
+                    <div class="projeto-info">
+                        <h3></h3>
+                    </div>
+                </div>
+        </section>
+
+        <div class="aguarde">
+            <h3>Mais projetos em breve...</h3>
+        </div>
+
+        <section class="about" id="about">
+            <div class="animation-area">
+                <ul class="box-area">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="about-text">
+                <h2 id="about-h2">Quem sou eu?</h2>
+                <p> Nascido em Pelotas, RS, e atualmente com 19 anos, estou estudando para um dia realizar o sonho
+                    de me tornar um profissional front-end. <br>
+                    Cativado desde criança pelas áreas da tecnologia e design.</p>
+                <p> Me considero um pessoa persistente, determinada e atenta a detalhes.<br>
+                    Apaixonado por música, jogos eletrônicos e séries.
+                </p>
+                <a href="#contatos">Fale comigo</a>
+            </div>
+        </section>
+
+        <section class="sessao-contato" id="contatos">
+            <div class="contato">
+                <h1>Vamos conversar!</h1>
+                <form>
+                    <div class="input-group">
+                        <input type="text" class="field" id="nome">
+                        <label for="nome" class="field-label">Nome</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="field" id="email">
+                        <label for="email" class="field-label">E-mail*</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea class="field" id="mensagem" maxlength="2000"> </textarea>
+                        <label for="mensagem" class="field-label">Mensagem</label>
+                    </div>
+                    <button type="submit" id="submit">Enviar</button>
+                    <div class="social">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/alessandro-lemons-8b6190151/" target="_blank">
+                                    <i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/alessandrolemons/alessandrolemons" target="_blank">
+                                    <i class="fab fa-github"></i></a></li>
+                            <li><a href="https://wa.me/+xx(xx)xxxxx-xxxx" target="_blank">
+                                    <i class="fab fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <h4>Alessandro Lemons &copy;</h4>
+        </footer>
+
+    </div>
+    <div class="audioplayer">
+        <button id="unmute-btn"><i class="fas fa-volume-up"></i></button>
+        <button id="mute-btn"><i class="fas fa-volume-mute"></i></button>
+        <audio autoplay loop src="./audio/lp-in-the-end-rmx.mp3"></audio>
+    </div>
+</body>
+<script src="./js/script.js"></script>
+
+</html>
